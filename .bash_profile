@@ -25,7 +25,7 @@ bldgrn='\e[1;32m' # Bold Green
 bldpur='\e[1;35m' # Bold Purple
 txtrst='\e[0m'    # Text Reset
 
-emojis=("👾" "🌐" "🎲" "🌍" "🐉" "🌵")
+emojis=(":fire:" ":zap:" ":rocket:" ":tada:" ":checkered_flag:" ":boom:")
 
 EMOJI=${emojis[$RANDOM % ${#emojis[@]} ]}
 
@@ -120,6 +120,7 @@ alias gaa='git add .'
 alias gaaa='git add -A'
 alias gc='git commit'
 alias gcm='git commit -m'
+alias gcmm='git commit -m "$EMOJI"'
 alias gd='git diff'
 alias gi='git init'
 alias gl='git log'
