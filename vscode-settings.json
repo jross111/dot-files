@@ -1,0 +1,18 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"window.zoomLevel": 2,
+	"workbench.colorTheme": "Default High Contrast",
+	"terminal.integrated.rendererType": "dom",
+	"explorer.confirmDelete": false,
+	"bracketPairColorizer.highlightActiveScope": true,
+	"bracketPairColorizer.showBracketsInGutter": true,
+	"prettier.jsxSingleQuote": true,
+	"prettier.trailingComma": "es5",
+	"prettier.useTabs": true,
+	"prettier.arrowParens": "always",
+	"editor.formatOnSave": true,
+	"turboConsoleLog.logMessagePrefix": "OUTPUT:"
+}
