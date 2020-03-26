@@ -1,5 +1,5 @@
 # export PS1="\[\033[38;5;9m\]\[\033[48;5;0m\]❄️\[$(tput sgr0)\]\[\033[38;5;15m\]\[\033[48;5;-1m\][\[$(tput sgr0)\]\[\033[38;5;42m\]\w\[$(tput sgr0)\]\[\033[38;5;15m\]]: \[$(tput sgr0)\]"
-
+export BASH_SILENCE_DEPRECATION_WARNING=1   #Gets rid of annoying zsh warning
 
 # HOST_NAME=Jamie
 
@@ -11,7 +11,6 @@ shopt -s histappend
 export PATH=$PATH:$HOME/bin
 
 export HISTSIZE=5000
-
 export HISTFILESIZE=10000
 
 bind '"\e[A": history-search-backward'
@@ -112,8 +111,10 @@ alias nis='npm i -S'
 alias l="ls" # List files in current directory
 alias ll="ls -al" # List all files in current directory in long list format
 alias o="open ." # Open the current directory in Finder
+alias open="open ." # Open the current directory in Finder
 
-# ----------------------
+
+# --------------------
 # Git Aliases
 # ----------------------
 alias ga='git add'
@@ -129,4 +130,4 @@ alias gp='git pull'
 alias gpsh='git push'
 alias gss='git status -s'
 alias gs='echo ""; echo "*********************************************"; echo -e "   DO NOT FORGET TO PULL BEFORE COMMITTING"; echo "*********************************************"; echo ""; git status'
-# © 2019 GitHub, Inc.
+alias ggg='git add . && gcmm && git push'
